@@ -2,6 +2,10 @@
   "name": "slides-app",
   "version": "0.0.0",
   "license": "MIT",
+  "engines": {
+    "node": "6.11.3",
+    "npm": "5.5.1"
+  },
   "scripts": {
     "ng": "ng",
     "build": "ng build",
