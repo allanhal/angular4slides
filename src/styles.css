@@ -1,3 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
-
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300'); 
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.big-font{
+    font-size: 5vw;
+}
+
+.round-corners {
+    border-radius: 5px;
+    border: 2px solid lightslategray
+}
+
+.bo1
+{
+    border: 1px solid black;
+}
+
+.fp-tableCell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color0{
+    background-color: lightseagreen
+}
+
+.color1{
+    background-color: lightsteelblue
+}
+
+.color2{
+    background-color: lightgray
+}
