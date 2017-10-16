@@ -6,8 +6,28 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-.big-font{
+.display-5{
     font-size: 5vw;
+}
+
+.display-10{
+    font-size: 10vw;
+}
+
+.display-20{
+    font-size: 20vw;
+}
+
+.display-30{
+    font-size: 30vw;
+}
+
+.display-50{
+    font-size: 50vw;
+}
+
+.display-100{
+    font-size: 100vw;
 }
 
 .round-corners {
