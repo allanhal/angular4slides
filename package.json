@@ -4,11 +4,13 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "nodemon": "ng build --prod && nodemon index.js",
+    "postinstall": "ng build --prod",
+    "start": "node index.js"
   },
   "private": true,
   "dependencies": {
@@ -25,7 +27,12 @@
     "core-js": "^2.4.1",
     "ngx-fullpage": "^4.0.6",
     "rxjs": "^5.4.2",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.14",
+    "nodemon": "^1.12.1",
+    "body-parser": "^1.18.0",
+    "compression": "^1.7.1",
+    "express": "^4.15.4",
+    "popper.js": "^1.12.5"
   },
   "devDependencies": {
     "@angular/cli": "1.4.7",
