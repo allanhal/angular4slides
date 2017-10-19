@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 import { MnFullpageModule } from 'ngx-fullpage';
 
 import { AppComponent } from './app.component';
+import { SlidesComponent } from './component/slides/slides.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SlidesComponent
   ],
   imports: [
     BrowserModule,

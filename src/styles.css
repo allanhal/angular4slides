@@ -1,10 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+/* @import "../src/assets/fonts/segoeui.woff"; */
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300'); 
 
-body{
-    font-family: 'Quicksand', sans-serif;
+@font-face {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: normal;
+    /* src: local('Segoe UI'), url('../src/assets/fonts/segoeui.woff') format('woff'); */
+    src: local('Segoe UI Light'), url('../src/assets/fonts/segoeuil.ttf') format('ttf');
 }
+
+body{
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family:'Segoe UI Light';
+    /* font-weight:normal;font-size:42px */
+}
+
+/* .segoe{
+    font-family:'Segoe UI';
+    font-weight:normal;font-size:42px
+} */
 
 .display-5{
     font-size: 5vw;
@@ -45,6 +61,12 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+/* .allLeft {
+    display: flex;
+    align-items: baseline;
+    justify-content: initial;
+} */
 
 .color0{
     background-color: lightseagreen

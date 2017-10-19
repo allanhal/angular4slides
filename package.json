@@ -8,6 +8,7 @@
   },
   "scripts": {
     "ng": "ng",
+    "dev o": "ng serve -o",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
